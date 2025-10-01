@@ -240,8 +240,6 @@ while True:
         time.sleep(1)
         print("Invalid input! Please choose a valid option (1 to 12)")
         time.sleep(1)
-        continue
-
         ch=input(" -> Do you wish to continue? -Y/N ")
         if(ch=='N' or ch=='n'):
                print("Quitting....")
@@ -264,3 +262,4 @@ while True:
                 print("Please wait....")
                 time.sleep(2)
                 menu()
+
